@@ -1,0 +1,26 @@
+.header__icomenu {
+    width: 44px;
+    height: 44px;
+    border: 10px solid #0271bc;
+    background-color: #0271bc;
+}
+
+.header__container{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    &--title {
+        font-size: 42px;
+        color: white;
+        text-transform: uppercase;
+        font-family: $font-family2;
+    }
+    &--paragraph {
+        font-size: 16px;
+        color: white;
+        font-family: $font-family;
+    }
+}
+
