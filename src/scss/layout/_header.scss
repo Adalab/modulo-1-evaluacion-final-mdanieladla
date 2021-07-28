@@ -20,9 +20,12 @@
         color: white;
         text-transform: uppercase;
         font-family: $font-family2;
+        line-height: 50px;
+        margin-left: 15px;
+        text-align: center;
         position: relative;
         z-index: 2;
-        top: 350px;
+        top: 340px;
     }
     &--paragraph {
         font-size: 16px;
@@ -30,15 +33,17 @@
         font-family: $font-family;
         position: relative;
         z-index: 2;
-        top: 350px;
+        top: 360px;
     }
 }
 
 .button__scroll-down{
     background-color: white;
+    width: 20px;
+    height: 20px;
     padding: 10px;
     border-radius: 50%;
     position: relative;
     z-index: 2;
-    top: 400px;
+    top: 450px;
 }
