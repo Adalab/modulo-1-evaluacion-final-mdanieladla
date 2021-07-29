@@ -1,0 +1,40 @@
+.section__container2{
+    background-color: $IceBlue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+    &--title{
+        font-size: 24px;
+        font-family: $font-family2;
+        text-transform: capitalize;
+        text-align: center;
+    }
+    &--subtitle{
+        font-size: 18px;
+        font-family: $font-family2;
+        text-align: center;
+        margin: 45px 70px 5px 70px;
+    }
+    &--paragraph{
+        font-size: 18px;
+        font-family: $font-family;
+        text-align: center;
+        padding: 0 70px 0 70px;
+    }
+    &--button{
+        width: 184px;
+        height: 45px;
+        text-align: center;
+        background-color: $Bright-orange;
+        color: white;
+        font-family: $font-family;
+        font-size: 20px;
+        border: solid $Bright-orange;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        margin: 45px auto 60px auto;
+    }
+}
