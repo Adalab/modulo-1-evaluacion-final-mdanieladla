@@ -5,7 +5,6 @@
     grid-gap: 10px;
     @media all and (min-width: 768px) {
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
     }
     &--title{
         font-size: 24px;
@@ -22,15 +21,13 @@
     }
     &--subtitle{
         font-size: 18px;
-        
         font-family: $font-family2;
         text-align: center;
-        margin: 45px 70px 5px 70px;
+        margin: 40px 70px 5px 70px;
         @media all and (min-width:768px) {
             font-size: 26px;
-            line-height: 45px;
-            grid-row-start: 2;
-            grid-row-end: 4;
+            line-height: 30px;
+            margin: 45px 40px 5px 38px;
         }
     }
     &--paragraph{
@@ -41,7 +38,7 @@
         padding: 0 70px 0 70px;
         @media all and (min-width:768px) {
             font-size: 20px;
-            
+            padding: 15px;
     }
     }
     
