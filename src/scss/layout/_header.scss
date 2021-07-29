@@ -8,6 +8,9 @@
     position: fixed;
     top: 0px;
     z-index: 2;
+    @media all and (min-width:768px) {
+        left: 0px;
+    }
 }
 
 .header__container{
@@ -22,10 +25,15 @@
         font-family: $font-family2;
         line-height: 50px;
         margin-left: 15px;
-        text-align: center;
+        text-align: center; 
         position: relative;
         z-index: 2;
         top: 340px;
+        @media all and (min-width: 768px) {
+            font-size: 80px;
+            line-height: 106px;
+            top: 650px;
+        }
     }
     &--paragraph {
         font-size: 16px;
@@ -34,7 +42,12 @@
         position: relative;
         z-index: 2;
         top: 360px;
+        @media all and (min-width: 768px) {
+            font-size: 24px;
+            top: 700px;
+        }
     }
+    
 }
 
 .button__scroll-down{
@@ -46,4 +59,10 @@
     position: relative;
     z-index: 2;
     top: 450px;
+    @media all and (min-width:768px) {
+        width: 30px;
+        height: 30px;
+        padding: 15px;
+        top: 800px;
+    }
 }
