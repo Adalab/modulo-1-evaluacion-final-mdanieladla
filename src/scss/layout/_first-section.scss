@@ -1,0 +1,39 @@
+.section__container{
+    width: 320px;
+    height: 376px;
+    margin: 0 15px 0 15px;
+    background-color: white;
+    &--small{
+        font-size: 14px;
+        font-family: $font-family;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #8ccbea;
+        text-align: left;
+    }
+    &--title{
+        font-size: 24px;
+        font-family: $font-family2;
+        line-height: 30px;
+        font-weight: bold;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+    }
+    &--paragraph{
+        font-size: 18px;
+        font-family: $font-family;
+        color: #4a4a4a;
+        line-height: 30px; 
+    }
+    &--button{
+        width: 76px;
+        height: 45px;
+        background-color: white;
+        border: 3px solid #f26002;
+        color: #f26002;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 40%;
+        margin-top: 30px;
+    }
+}
