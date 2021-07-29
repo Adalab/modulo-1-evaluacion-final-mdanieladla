@@ -1,12 +1,9 @@
 .section__container{
-    width: 320px;
-    height: 376px;
-    margin: 0 15px 0 15px;
+    margin: 40px 15px 50px 15px;
     background-color: white;
     @media all and (min-width: 768px){
-        width: 768px;
-        height: 330px;
-        margin: 0 39px 0 39px;
+        margin: 40px 39px 50px 39px;
+        
     }
     &--small{
         font-size: 14px;
@@ -23,12 +20,19 @@
         font-weight: bold;
         text-transform: capitalize;
         margin-bottom: 15px;
+        @media all and (min-width: 768px) {
+            font-size: 26px;
+            line-height: 45px;
+        }
     }
     &--paragraph{
         font-size: 18px;
         font-family: $font-family;
         color: #4a4a4a;
         line-height: 30px; 
+        @media all and (min-width: 768px) {
+            font-size: 20px;
+        }
     }
     &--button{
         width: 76px;
@@ -36,9 +40,13 @@
         background-color: white;
         border: 3px solid $Bright-orange;
         color: $Bright-orange;
+        font-family: $font-family;
         font-size: 20px;
         font-weight: 500;
-        border-radius: 40%;
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-bottom-left-radius: 30px;
         margin-top: 30px;
         transition: color ease 0.8s;
     }
