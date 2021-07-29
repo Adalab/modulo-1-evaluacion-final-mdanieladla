@@ -2,22 +2,24 @@
     background-color: $IceBlue;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
     grid-gap: 10px;
     &--title{
         font-size: 24px;
         font-family: $font-family2;
         text-transform: capitalize;
         text-align: center;
+        margin-top: 30px;
     }
     &--subtitle{
         font-size: 18px;
+        line-height: 30px;
         font-family: $font-family2;
         text-align: center;
         margin: 45px 70px 5px 70px;
     }
     &--paragraph{
         font-size: 18px;
+        line-height: 30px;
         font-family: $font-family;
         text-align: center;
         padding: 0 70px 0 70px;
