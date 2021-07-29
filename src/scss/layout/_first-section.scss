@@ -35,5 +35,11 @@
         font-weight: 500;
         border-radius: 40%;
         margin-top: 30px;
+        transition: color ease 0.8s;
+    }
+    &--button:hover{
+        cursor: pointer;
+        border: 3px solid $Cerulean;
+        background-color: $IceBlue;
     }
 }
