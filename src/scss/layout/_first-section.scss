@@ -3,6 +3,11 @@
     height: 376px;
     margin: 0 15px 0 15px;
     background-color: white;
+    @media all and (min-width: 768px){
+        width: 768px;
+        height: 330px;
+        margin: 0 39px 0 39px;
+    }
     &--small{
         font-size: 14px;
         font-family: $font-family;
