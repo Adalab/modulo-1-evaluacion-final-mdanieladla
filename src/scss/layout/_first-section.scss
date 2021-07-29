@@ -38,6 +38,7 @@
         transition: color ease 0.8s;
     }
     &--button:hover{
+        transform: scale(1.5);
         cursor: pointer;
         border: 3px solid $Cerulean;
         background-color: $IceBlue;
