@@ -6,7 +6,9 @@
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-  
+   @media all and (min-width: 1200px) {
+       background-position: inherit;
+   }
 }
 
 .header__icomenu {
@@ -39,11 +41,14 @@
         text-align: center; 
         position: relative;
         z-index: 2;
-        top: 340px;
         @media all and (min-width: 768px) {
             font-size: 80px;
             line-height: 106px;
             top: 500px;
+        }
+        @media all and (min-width:768px) {
+            font-size: 100px;
+            word-spacing: 100vw;
         }
     }
     &--paragraph {
