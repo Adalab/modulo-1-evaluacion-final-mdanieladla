@@ -18,6 +18,9 @@
             grid-column-start: 1;
             grid-column-end: 4;
         }
+        @media all and (min-width:1200px){
+            font-size: 32px;
+        }
     }
     &--subtitle{
         font-size: 18px;
@@ -25,7 +28,7 @@
         text-align: center;
         margin: 40px 70px 5px 70px;
         @media all and (min-width:768px) {
-            font-size: 26px;
+            font-size: 20px;
             line-height: 30px;
             margin: 45px 40px 5px 38px;
         }
@@ -42,6 +45,18 @@
     }
     }
     
+    @media all and (min-width:1200px) {
+        .lorem {
+            padding-left: 80px;
+        }
+        .mauris {
+            padding-right: 10px;
+        }
+        .aliquam {
+            padding-right: 85px;
+        }
+    } 
+
     &--button{
         width: 184px;
         height: 45px;
@@ -60,6 +75,9 @@
         @media all and (min-width: 768px) {
             grid-column-start: 2;
             grid-column-end: 3;
+        }
+        @media all and (min-width:1200px) {
+            
         }
     }
     &--button:hover {
