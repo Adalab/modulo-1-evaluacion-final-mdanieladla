@@ -39,28 +39,31 @@
         line-height: 50px;
         margin-left: 15px;
         text-align: center; 
-        position: relative;
+        /*position: relative;
+        left: 50%;
+        transform: translate(-50%, -50%);*/
+        padding-top: 300px;
         z-index: 2;
         @media all and (min-width: 768px) {
             font-size: 80px;
             line-height: 106px;
-            top: 500px;
+            padding-top: 500px;
         }
-        @media all and (min-width:768px) {
+        @media all and (min-width:1200px) {
             font-size: 100px;
             word-spacing: 100vw;
+            padding-top: 275px;
         }
     }
     &--paragraph {
         font-size: 16px;
         color: white;
         font-family: $font-family;
-        position: relative;
+        /*position: relative; top: 360px;*/
         z-index: 2;
-        top: 360px;
+        margin: 30px;
         @media all and (min-width: 768px) {
             font-size: 24px;
-            top: 550px;
         }
     }
     
@@ -72,9 +75,9 @@
     height: 20px;
     padding: 10px;
     border-radius: 50%;
-    position: relative;
+    /*position: relative;
+    top: 450px;*/
     z-index: 2;
-    top: 450px;
     @media all and (min-width:768px) {
         width: 30px;
         height: 30px;
