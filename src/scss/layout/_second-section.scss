@@ -36,5 +36,12 @@
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
         margin: 45px auto 60px auto;
+        transition: color ease 1s;
+    }
+    &--button:hover {
+        transform: scale(1.5);
+        cursor: pointer;
+        border: 1px solid $Cerulean;
+        background-color: $Cerulean;
     }
 }
