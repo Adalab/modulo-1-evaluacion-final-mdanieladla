@@ -58,6 +58,9 @@
     } 
 
     &--button{
+        box-sizing: border-box;
+        padding: 10px;
+        text-decoration: none;
         width: 184px;
         height: 45px;
         text-align: center;
