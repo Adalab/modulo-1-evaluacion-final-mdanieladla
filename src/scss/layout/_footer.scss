@@ -73,7 +73,7 @@
             text-align: left;
         }
         @media all and (min-width:1200px) {
-            padding-left: 80px
+            padding-left: 40px
         }
     }
     &--arrow{
@@ -109,6 +109,10 @@
             width: 30px;
             height: 30px;
         }
+    }
+    &--img{
+        padding-top: 3px;
+        padding-left: 5px;
     }
 }
 
