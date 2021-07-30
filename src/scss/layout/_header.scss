@@ -7,7 +7,7 @@
     background-size: cover;
     background-repeat: no-repeat;
    @media all and (min-width: 1200px) {
-       background-position: inherit;
+       /*background-position: inherit;*/
    }
 }
 
@@ -19,11 +19,6 @@
     border: 5px solid $Cerulean;
     background-color: $Cerulean;
     position: fixed;
-    /*top: 0px;
-    z-index: 2;*/
-    @media all and (min-width:768px) {
-        /*left: 0px;*/
-    }
 }
 
 .header__container{
@@ -40,11 +35,7 @@
         margin-left: 15px;
         margin-right: 15px;
         text-align: center; 
-        /*position: relative;
-        left: 50%;
-        transform: translate(-50%, -50%);*/
         padding-top: 300px;
-        z-index: 2;
         @media all and (min-width: 768px) {
             font-size: 80px;
             line-height: 106px;
@@ -60,8 +51,6 @@
         font-size: 16px;
         color: white;
         font-family: $font-family;
-        /*position: relative; top: 360px;*/
-        z-index: 2;
         margin: 30px;
         @media all and (min-width: 768px) {
             font-size: 24px;
@@ -75,13 +64,9 @@
     height: 20px;
     padding: 10px;
     border-radius: 50%;
-    /*position: relative;
-    top: 450px;*/
-    z-index: 2;
     @media all and (min-width:768px) {
         width: 30px;
         height: 30px;
         padding: 15px;
-       /* top: 650px;*/
     }
 }
