@@ -7,4 +7,4 @@
 
 Este es mi ejercicio final del módulo 1 de Adalab.
 
-Cualquier cambio, sugerencia o cosa que quieras decirme adelante :)
+Cualquier cambio, sugerencia o consejo es bienvenido :)
