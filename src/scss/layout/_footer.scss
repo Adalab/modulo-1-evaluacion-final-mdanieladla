@@ -29,6 +29,10 @@
             flex-direction: column;
             margin-bottom: 50px;
         }
+        @media all and (min-width:1200px) {
+            box-sizing: border-box;
+            padding-right: 50px;
+        }
     }
     &--paragraph {
        text-align: center;
