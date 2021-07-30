@@ -103,16 +103,17 @@
         animation-iteration-count: 3;
         @media all and (min-width:768px){
             bottom: 100px;
-            left: 140px;
+            left: 160px;
         }
         @media all and (min-width:1200px) {
             width: 30px;
             height: 30px;
+            left: 130px;
         }
     }
     &--img{
-        padding-top: 3px;
-        padding-left: 5px;
+        padding-top: 2px;
+        padding-left: 2px;
     }
 }
 
